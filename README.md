@@ -40,7 +40,7 @@ When wearing full set adds:
 - haste IV
 - fire resistance IV
 
-Recipes: - see images
+Recipes: - see images @ https://minecraft.curseforge.com/projects/unikitty-mod
 - Golden Fish
 - Unikitty Helmet
 - Unikitty Chestplate
