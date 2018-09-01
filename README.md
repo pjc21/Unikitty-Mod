@@ -59,7 +59,7 @@ Items Added:
 - Unikitty Armor
 
 Hairball sound:
-- hairball sound found below
+- hairball sound sourced from
   - https://commons.wikimedia.org/wiki/File:Common_house_cat_coughing_hairball.ogv
   - Author: Backyardsounds
   - License: CC BY-SA 3.0
