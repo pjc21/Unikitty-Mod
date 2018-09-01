@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "rhr",
+        "r r",
+        "   "
+    ],
+    
+    "key": 
+    {
+        "r":
+        {
+            "item": "unikitty:blue_crystal"    
+        },
+        "h":
+        {
+            "item": "unikitty:unikitty_horn"
+        }
+    },
+    
+    "result": 
+    {
+        "item": "unikitty:helmet_unikitty",
+        "count": 1
+    }
+}

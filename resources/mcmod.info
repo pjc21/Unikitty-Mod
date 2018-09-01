@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unikitty",
+  "name": "Unikitty Mod",
+  "description": "Adds Unikittys which can be tamed as pets & a very OP armor.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pauls Mods"],
+  "credits": "To my daughter Kaena.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

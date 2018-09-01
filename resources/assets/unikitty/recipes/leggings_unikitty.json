@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "rrr",
+        "r r",
+        "r r"
+    ],
+    
+    "key": 
+    {
+        "r":
+        {
+            "item": "unikitty:blue_crystal"    
+        }
+    },
+    
+    "result": 
+    {
+        "item": "unikitty:leggings_unikitty",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "entity.unikitty.hairball":
+    {
+        "category": "entity",
+        "subtitle": "entity.unikitty.hairball",
+        "sounds": [{ "name": "unikitty:entity/unikitty/hairball", "stream": true}]
+    }
+}

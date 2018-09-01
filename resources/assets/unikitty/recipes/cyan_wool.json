@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "ss",
+        "ss"
+    ],
+    
+    "key": 
+    {
+        "s":
+        {
+            "item": "unikitty:string_cyan"    
+        }
+    },
+    
+    "result": 
+    {
+        "item": "minecraft:wool",
+        "data": 9,
+        "count": 1
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "name": "unikitty:unikitty_lime",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "unikitty:string_lime",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "unikitty:unikitty_base",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "unikitty:unikitty_base"
+                }
+            ]
+        }
+    ]
+}

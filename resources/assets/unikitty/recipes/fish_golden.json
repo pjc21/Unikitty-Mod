@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "nnn",
+        "nfn",
+        "nnn"
+    ],
+    
+    "key": 
+    {
+        "n":
+        {
+            "item": "minecraft:gold_nugget"    
+        },
+        "f":
+        {
+            "item": "minecraft:fish",
+            "data": 0
+        }
+    },
+    
+    "result": 
+    {
+        "item": "unikitty:fish_golden",
+        "count": 1
+    }
+}
