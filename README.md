@@ -68,7 +68,6 @@ Hairball sound:
 Original sound file modified:
 - cut down to 1 second and converted to ogg format.
 
-This is the first minecraft mod I have created & first time playing around with java & minecraft modding.
 
 Please let me know if you have any issues.
 - Tested on single player & server.
