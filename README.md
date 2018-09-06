@@ -14,10 +14,10 @@ If named "kaena" with a nametag it will become a rainbow unikitty, like when a s
 If tamed only the owner can change it's color, or it will hiss.
 
 Drops when killed:
-- 4 string of the same color as the unikitty.
 - raw unikitty meat, can be cooked in furnace.
 
 Player killed drops:
+- 4 string of the same color as the unikitty.
 - chance of dropping either blue crystal or unikitty horn.
 
 Spawn
