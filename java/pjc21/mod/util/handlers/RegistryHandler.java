@@ -1,5 +1,8 @@
 package pjc21.mod.util.handlers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -15,13 +18,38 @@ import pjc21.mod.util.interfaces.IHasModel;
 @EventBusSubscriber
 public class RegistryHandler 
 {
+	private static List<String> PlayersWithFlight = new ArrayList<String>();
+
+	@SubscribeEvent
+	public static void onFly(TickEvent.PlayerTickEvent event)
+	{
+		if(!event.player.isCreative() || !event.player.isSpectator()) 
+		{
+			String username = event.player.getName();
+			if(event.player.isPotionActive(PotionInit.FLY_POTION))
+			{
+				boolean shouldFly = true;
+				
+				event.player.capabilities.allowFlying = shouldFly;
+				event.player.sendPlayerAbilities();
+				if (!PlayersWithFlight.contains(username)) PlayersWithFlight.add(username);
+			}
+			else if (PlayersWithFlight.contains(username)) 
+			{
+				PlayersWithFlight.remove(username);
+				event.player.capabilities.allowFlying = false;
+				event.player.capabilities.isFlying = false;
+				event.player.sendPlayerAbilities();
+			}
+		}
+	}
+
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
 		event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
 	}
 	
-		
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
 	{
@@ -34,24 +62,6 @@ public class RegistryHandler
 		}
 		
 		EntityInit.registerEntityRenders();
-	}
-	
-	@SubscribeEvent
-	public static void onFly(TickEvent.PlayerTickEvent event) 
-	{
-		boolean fly = false;
-		
-		if(event.player.isPotionActive(PotionInit.FLY_POTION))
-			fly = true;
-		if(fly || event.player.isCreative() || event.player.isSpectator()) 
-		{
-			event.player.capabilities.allowFlying = true;
-			event.player.fallDistance = 0.0f;
-		} else {
-			fly = false;
-			event.player.capabilities.isFlying = false;
-			event.player.capabilities.allowFlying = false;
-		}
 	}
 	
 	public static void preInitRegistries()
