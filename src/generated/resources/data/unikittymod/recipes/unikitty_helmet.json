@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "unikittymod",
+  "pattern": [
+    "chc",
+    "c c"
+  ],
+  "key": {
+    "h": {
+      "item": "unikittymod:unikitty_horn"
+    },
+    "c": {
+      "item": "unikittymod:blue_crystal"
+    }
+  },
+  "result": {
+    "item": "unikittymod:unikitty_helmet"
+  }
+}

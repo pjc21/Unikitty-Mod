@@ -1,0 +1,12 @@
+{
+  "unikitty.hairball": {
+    "category": "entity",
+    "subtitle": "unikittymod.sound.sub.hairball",
+    "sounds": [
+      {
+        "name": "unikittymod:entity/unikitty_hairball",
+        "stream": true
+      }
+    ]
+  }
+}

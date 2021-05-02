@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "unikittymod",
+  "pattern": [
+    "c c",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "unikittymod:blue_crystal"
+    }
+  },
+  "result": {
+    "item": "unikittymod:unikitty_chestplate"
+  }
+}

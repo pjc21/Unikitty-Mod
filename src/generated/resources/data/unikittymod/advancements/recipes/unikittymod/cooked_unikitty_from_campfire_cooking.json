@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "unikittymod:cooked_unikitty_from_campfire_cooking"
+    ]
+  },
+  "criteria": {
+    "has_unikitty_raw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unikittymod:unikitty_raw"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "unikittymod:cooked_unikitty_from_campfire_cooking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_unikitty_raw",
+      "has_the_recipe"
+    ]
+  ]
+}

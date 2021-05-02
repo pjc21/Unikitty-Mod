@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "unikittymod:unikitty_leggings"
+    ]
+  },
+  "criteria": {
+    "has_blue_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unikittymod:blue_crystal"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "unikittymod:unikitty_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_crystal",
+      "has_the_recipe"
+    ]
+  ]
+}

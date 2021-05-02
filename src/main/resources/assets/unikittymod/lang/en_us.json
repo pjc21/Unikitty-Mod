@@ -1,0 +1,44 @@
+{
+  "item.unikittymod.black_string": "Black String",
+  "item.unikittymod.white_string": "White String",
+  "item.unikittymod.blue_string": "Blue String",
+  "item.unikittymod.brown_string": "Brown String",
+  "item.unikittymod.cyan_string": "Cyan String",
+  "item.unikittymod.gray_string": "Gray String",
+  "item.unikittymod.green_string": "Green String",
+  "item.unikittymod.light_blue_string": "Light Blue String",
+  "item.unikittymod.light_gray_string": "Light Gray String",
+  "item.unikittymod.lime_string": "Lime String",
+  "item.unikittymod.magenta_string": "Magenta String",
+  "item.unikittymod.orange_string": "Orange String",
+  "item.unikittymod.pink_string": "Pink String",
+  "item.unikittymod.purple_string": "Purple String",
+  "item.unikittymod.red_string": "Red String",
+  "item.unikittymod.yellow_string": "Yellow String",
+
+  "item.unikittymod.unikitty_horn": "Unikitty Horn",
+  "item.unikittymod.blue_crystal": "Blue Crystal",
+
+  "item.unikittymod.fish_golden": "Golden Fish",
+  "item.unikittymod.unikitty_raw": "Raw Unikitty Meat",
+  "item.unikittymod.unikitty_cooked": "Cooked Unikitty Meat",
+
+  "item.unikittymod.unikitty_helmet": "Unikitty Helmet",
+  "item.unikittymod.unikitty_chestplate": "Unikitty Chestplate",
+  "item.unikittymod.unikitty_leggings": "Unikitty Leggings",
+  "item.unikittymod.unikitty_boots": "Unikitty Boots",
+
+  "effect.unikittymod.fly_effect": "Flight",
+  "item.minecraft.potion.effect.fly": "Potion of Flight",
+  "item.minecraft.splash_potion.effect.fly": "Splash Potion of Flight",
+  "item.minecraft.lingering_potion.effect.fly": "Lingering Potion of Flight",
+  "item.minecraft.tipped_arrow.effect.fly": "Arrow of Flight",
+
+  "item.unikittymod.unikitty_spawn_egg": "Unikitty Spawn Egg",
+
+  "unikittymod.sound.sub.hairball": "Unikitty Hairball",
+
+  "entity.unikittymod.unikitty": "Unikitty",
+
+  "itemGroup.unikittymod": "Unikitty Mod"
+}

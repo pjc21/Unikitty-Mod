@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "unikittymod:white_string",
+    "unikittymod:orange_string",
+    "unikittymod:magenta_string",
+    "unikittymod:light_blue_string",
+    "unikittymod:yellow_string",
+    "unikittymod:lime_string",
+    "unikittymod:pink_string",
+    "unikittymod:gray_string",
+    "unikittymod:light_gray_string",
+    "unikittymod:cyan_string",
+    "unikittymod:purple_string",
+    "unikittymod:blue_string",
+    "unikittymod:brown_string",
+    "unikittymod:green_string",
+    "unikittymod:red_string",
+    "unikittymod:black_string"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "unikittymod",
+  "pattern": [
+    "ss ",
+    "ss "
+  ],
+  "key": {
+    "s": {
+      "item": "unikittymod:cyan_string"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_wool"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "unikittymod:unikitty_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_blue_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unikittymod:blue_crystal"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "unikittymod:unikitty_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_crystal",
+      "has_the_recipe"
+    ]
+  ]
+}

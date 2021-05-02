@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "unikittymod:item/unikitty_chestplate",
+        "layer1": "unikittymod:item/unikitty_chestplate_overlay"
+    }
+}
