@@ -13,6 +13,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.world.World;
 import pjc21.mods.unikittymod.UnikittyMod;
 import pjc21.mods.unikittymod.config.PotionConfig;
+import pjc21.mods.unikittymod.config.UnikittyConfig;
 import pjc21.mods.unikittymod.init.ModItems;
 
 public class UnikittyArmorItem extends ArmorItem implements IDyeableArmorItem {
@@ -33,7 +34,7 @@ public class UnikittyArmorItem extends ArmorItem implements IDyeableArmorItem {
     @Override
     public boolean makesPiglinsNeutral(ItemStack stack, LivingEntity wearer)
     {
-        return stack.getItem() instanceof ArmorItem && (((ArmorItem) stack.getItem()).getMaterial() == UnikittyArmorMaterial.UNIKITTY);
+        return UnikittyConfig.armorSettings.makePiglinsNeutral.get() && stack.getItem() instanceof ArmorItem && (((ArmorItem) stack.getItem()).getMaterial() == UnikittyArmorMaterial.UNIKITTY);
     }
 
     @Override

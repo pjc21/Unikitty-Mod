@@ -24,6 +24,7 @@ public class UnikittyConfig {
     public static final ForgeConfigSpec spec = BUILDER.build();
 
     public static class ArmorSettings {
+        public final ForgeConfigSpec.BooleanValue makePiglinsNeutral;
         public final ForgeConfigSpec.ConfigValue<List<Integer>> armorDurability;
         public final ForgeConfigSpec.ConfigValue<List<Integer>> armorDamageReduction;
         public final ForgeConfigSpec.IntValue armorDurabilityMultiplier;
@@ -36,6 +37,8 @@ public class UnikittyConfig {
 
         ArmorSettings(ForgeConfigSpec.Builder builder) {
             builder.comment("Armor settings").push("armor");
+
+            makePiglinsNeutral = builder.comment("Should Armor make Piglins Neutral like Gold Armor").define("makePiglinsNeutral", true);
 
             builder.comment("Armor Durability").push("armorDurability");
             builder.comment("The Base Durability for each Armor piece.\nAll Vanilla Armors by default are 13, 15, 16, 11 & then multiplied by the Durability Multiplier.\nFormat: boots, leggings, chest, helmet");
