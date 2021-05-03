@@ -56,7 +56,7 @@ public class UnikittyConfig {
             builder.pop(1);
 
             builder.comment("Armor Toughness").push("armorToughness");
-            builder.comment("The Armor Toughness.\nNetherite by default is 3.0F");
+            builder.comment("The Armor Toughness.\nNetherite by default is 3.0");
             armorToughness = builder.defineInRange("armorToughness", 5.0F, 0.0F, 100.0F);
             builder.pop(1);
 
