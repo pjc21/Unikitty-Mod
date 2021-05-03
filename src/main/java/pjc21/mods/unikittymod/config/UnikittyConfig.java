@@ -76,12 +76,12 @@ public class UnikittyConfig {
             builder.pop(1);
 
             builder.comment("Potions Added to Helmet").push("potionsAddedHelmet");
-            builder.comment("Potions added to the Helmet.\nFormat: potion_effect_name|amplifier|showParticles|showIcon, Example: [\"minecraft:regeneration|100|3|false|true\"]");
+            builder.comment("Potions added to the Helmet.\nFormat: potion_effect_name|duration|amplifier|showParticles|showIcon, Example: [\"minecraft:regeneration|100|3|false|true\"]");
             potionEffectsHelmet = builder.defineList("potionsAddedHelmet", new ArrayList<>(), lt -> lt instanceof String);
             builder.pop(1);
 
             builder.comment("Potions Added Full Set").push("potionEffectsFullSet");
-            builder.comment("Potions added when wearing full set.\nFormat: potion_effect_name|amplifier|showParticles|showIcon, Example: [\"minecraft:regeneration|100|3|false|true\"]");
+            builder.comment("Potions added when wearing full set.\nFormat: potion_effect_name|duration|amplifier|showParticles|showIcon, Example: [\"minecraft:regeneration|100|3|false|true\"]");
             potionEffectsFullSet = builder.defineList("potionEffectsFullSet", new ArrayList<>(), lt -> lt instanceof String);
             builder.pop(1);
 
