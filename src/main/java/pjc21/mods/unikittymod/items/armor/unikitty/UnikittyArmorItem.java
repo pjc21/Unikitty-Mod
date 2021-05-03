@@ -34,7 +34,7 @@ public class UnikittyArmorItem extends ArmorItem implements IDyeableArmorItem {
     @Override
     public boolean makesPiglinsNeutral(ItemStack stack, LivingEntity wearer)
     {
-        return UnikittyConfig.armorSettings.makePiglinsNeutral.get() && stack.getItem() instanceof UnikittyArmorItem && (((UnikittyArmorItem) stack.getItem()).getMaterial() == UnikittyArmorMaterial.UNIKITTY);
+        return UnikittyConfig.armorSettings.makePiglinsNeutral.get() && stack.getItem() instanceof ArmorItem && (((ArmorItem) stack.getItem()).getMaterial() == UnikittyArmorMaterial.UNIKITTY);
     }
 
     @Override
